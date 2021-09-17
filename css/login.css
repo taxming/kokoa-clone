@@ -1,22 +1,15 @@
-.statusbar {
+.loginform {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  margin: 0px 20px;
 }
 
-.statusbar__service {
-  display: flex;
+.loginform__inside {
+  padding: 20px 15px;
+  border: 0px;
 }
 
-.statusbar__service:first-child span {
-  margin-right: 5px;
-}
-
-.statusbar__wifiimg {
-  height: 21px;
-  width: 21px;
-}
-
-.statusbar__wifiimg2 {
-  height: 100%;
-  width: 100%;
+.loginform__email {
+  border-bottom: 1px gray;
+  border-style: solid;
 }

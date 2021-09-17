@@ -1,0 +1,8 @@
+.welcomnote {
+  align-items: center;
+  text-align: center;
+}
+
+.welcomnote:nth-child(2) p {
+  opacity: 70%;
+}
