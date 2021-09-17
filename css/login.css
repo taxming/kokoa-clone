@@ -1,0 +1,22 @@
+.statusbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statusbar__service {
+  display: flex;
+}
+
+.statusbar__service:first-child span {
+  margin-right: 5px;
+}
+
+.statusbar__wifiimg {
+  height: 21px;
+  width: 21px;
+}
+
+.statusbar__wifiimg2 {
+  height: 100%;
+  width: 100%;
+}
